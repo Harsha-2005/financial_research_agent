@@ -4,7 +4,7 @@ A high-performance, multi-agent system built with **LangGraph** designed for sop
 
 ## 📖 Overview
 
-The Financial Research Agent automates the workflow of a junior equity analyst. It routes queries through a directed acyclic graph (DAG), where each node specializes in a specific part of the research process—from parsing intent to stress-testing financial assumptions.
+The Financial Research Agent automates the workflow of a junior equity analyst. It routes queries through a directed acyclic graph (DAG), where each node specializes in a specific part of the research process—from parsing in```tent to stress-testing financial assumptions.
 
 ### 🏗 Infrastructure: Ollama Gateway
 Unlike projects dependent on external APIs (like OpenAI), this agent uses a **locally hosted Ollama instance**:
