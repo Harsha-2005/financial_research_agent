@@ -1,0 +1,23 @@
+[project]
+name = "financial-research-agent"
+version = "0.1.0"
+description = "Deep Research Agent for Financial & Market Analysis"
+requires-python = ">=3.10"
+
+dependencies = [
+  "langgraph>=0.0.35",
+  "langchain>=0.1.0",
+  "openai>=1.12.0",
+  "pydantic>=2.5",
+  "typing-extensions>=4.9",
+  "chromadb>=0.4.22",
+  "python-dotenv>=1.0.0",
+  "rich>=13.7.0",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.0.0",
+  "black>=24.1.0",
+  "ruff>=0.2.0"
+]
